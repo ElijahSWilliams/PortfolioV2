@@ -2,6 +2,11 @@ import "./Header.css";
 
 
 
+
+/* UPDATE PORTFOLIO LINK IN RESUME*/
+/* MAKE RESPONSIVE ON MOBILE DEVICES */
+
+
 function Header() {
 return(
     <div className="header">
