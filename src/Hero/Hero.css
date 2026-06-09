@@ -70,7 +70,9 @@
 .hero__buttons { 
     max-width: 250px;
     display: flex;
-    justify-content: space-between; 
+    justify-content: space-between;  
+
+   
 } 
 
 .hero__button { 
@@ -110,7 +112,9 @@
     color: #eaeaea;
     transition: all 0.25s ease;
     position: relative;
-    overflow: hidden;
+    overflow: hidden; 
+    padding: 3px; 
+    text-decoration: none;
   }
 
 .hero__button--primary:hover {
@@ -129,7 +133,9 @@
     color: #eaeaea;
     transition: all 0.25s ease;
     position: relative;
-    overflow: hidden;
+    overflow: hidden; 
+    padding: 3px; 
+    text-decoration: none;
   }
 
   .hero__button--secondary:hover {

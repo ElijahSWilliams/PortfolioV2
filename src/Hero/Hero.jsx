@@ -18,19 +18,19 @@ function Hero() {
           </p>
   
           <div className="hero__buttons">
-            <button className="hero__button hero__button--primary">
+            <a className="hero__button hero__button--primary" href="#projects">
               View Projects
-            </button>
-  
-            <button className="hero__button hero__button--secondary">
+            </a>
+
+            <a className="hero__button hero__button--secondary" href="#contact">
               Contact
-            </button>
+            </a>
           </div>
         </div>
   
         {/* RIGHT: Visual / Theme Space */}
         <div className="hero__right">
-          <div className="hero__magic-field"></div>
+          <div className="hero__magic-field"></div> 
         </div>
   
       </section>
