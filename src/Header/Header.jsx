@@ -6,12 +6,12 @@ function Header() {
 return(
     <div className="header">
          <nav className="header__nav">
-        <a
+     {/*    <a
           href="#home"
           className="header__link"
         >
           Home
-        </a>
+        </a> */}
         <a
           href="#about"
           className="header__link"
