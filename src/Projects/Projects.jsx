@@ -28,8 +28,9 @@ const projects = [
     {
       Title: "AWCleaning",
       Description:
-        "Cleaning service website with a contact form and booking system. It features AI Integration to help the user decide on a cleaning service.",
+        "A cleaning service platform that uses AI to recommend services and provide instant pricing estimates based on customer needs.",
       Tech: ["React", "Node.js"],
+     /*  Tools: ["GroqAi"], */
       Link: "https://elijahswilliams.github.io/AWCLEANING/",
       Repo: ["https://github.com/ElijahSWilliams/AWCLEANING"],
     },

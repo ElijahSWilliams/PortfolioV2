@@ -90,7 +90,10 @@ function Contact() {
             Send Message
           </button>
 
-        </form>
+        </form> 
+
+        {/* Back to top button */} 
+        <a href="#home" className="contact__top-btn">⬆</a>
       </div>
     </section>
   );
