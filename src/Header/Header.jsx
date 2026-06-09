@@ -31,7 +31,7 @@ return(
           Contact
         </a>
         <a
-          href="/public/FINALIZED_TECH_RESUME(V3F) copy.pdf"
+          href="/PortfolioV2/FINALIZED_TECH_RESUME(V3F).pdf"
           download
           className="header__link"
         >
