@@ -6,7 +6,9 @@ import { useEffect } from 'react'
 import About from './About/About'
 import Projects from './Projects/Projects' 
 import Contact from './Contact/Contact'
-import Footer from './Footer/Footer'
+import Footer from './Footer/Footer' 
+import githubLogo from "../src/assets/github-logo.png"; 
+import linkedInLogo from "../src/assets/linkedin-logo-3.png"
 
 
 function App() {
@@ -26,7 +28,19 @@ function App() {
   }, []);
 
   return (
-    <> 
+    <>  
+
+{/*       <div className="tab__links">
+        <a href="https://github.com/ElijahSWilliams" target="_blank">
+            <img src={githubLogo} className="tab__link-github" />
+        </a>
+        <a href="https://www.linkedin.com/in/elijah-williams16/" target="_blank">
+            <img src={linkedInLogo} className="tab__link-linkedIn" />
+        </a>
+        
+      </div> */}
+
+
     <section id="home">
     <Header /> 
     </section> 
@@ -49,7 +63,7 @@ function App() {
 
     <section id="footer">
       <Footer />
-    </section>
+    </section> 
 
     
        

@@ -26,7 +26,36 @@ body::before {
   background: url("noise.png");
   opacity: 0.04;
   pointer-events: none;
+}  
+
+.tab__links { 
+  position: fixed;
+  top: 300px;  
+  right: 100px;
+  width: 50px;
+  height: 100px; 
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+  background-color: #eaeaea; 
+  padding: 2px; 
+  border-radius: 20px;
 } 
+
+.tab__link-github {
+  width: 50px;
+  height: 45px;  
+  border-radius: 5px; 
+  margin-left: 5px; 
+  margin-top: 5px;
+}
+
+.tab__link-linkedIn {
+  width: 50px;
+  height: 45px;  
+  margin-left: 5px;
+ 
+}
 
 .cursor {
   position: fixed;
@@ -46,4 +75,62 @@ body::before {
  
 html {
   scroll-behavior: smooth;
+}  
+
+section {
+  scroll-margin-top: 10px; /* adjust this value */
+}
+ 
+.rune-bg {
+  position: fixed;
+  inset: 0;
+  overflow: hidden;
+  pointer-events: none;
+  z-index: 0;
+}
+
+/* base rune */
+.rune {
+  position: absolute;
+  font-size: 1.2rem;
+  opacity: 0.08;
+
+  color: rgba(255, 40, 80, 0.6); /* Scarlet Witch base */
+  text-shadow: 0 0 10px rgba(106, 13, 173, 0.2);
+
+  animation: floatRune 18s linear infinite;
+}
+
+/* random positioning + variation */
+.rune:nth-child(odd) {
+  color: rgba(106, 13, 173, 0.5); /* Agatha purple */
+  font-size: 1rem;
+}
+
+.rune:nth-child(1) { left: 5%; top: 10%; animation-duration: 22s; }
+.rune:nth-child(2) { left: 15%; top: 80%; animation-duration: 18s; }
+.rune:nth-child(3) { left: 25%; top: 40%; animation-duration: 25s; }
+.rune:nth-child(4) { left: 35%; top: 20%; animation-duration: 20s; }
+.rune:nth-child(5) { left: 45%; top: 70%; animation-duration: 28s; }
+.rune:nth-child(6) { left: 55%; top: 30%; animation-duration: 19s; }
+.rune:nth-child(7) { left: 65%; top: 60%; animation-duration: 24s; }
+.rune:nth-child(8) { left: 75%; top: 15%; animation-duration: 21s; }
+.rune:nth-child(9) { left: 85%; top: 75%; animation-duration: 26s; }
+.rune:nth-child(10) { left: 90%; top: 35%; animation-duration: 23s; }
+
+@keyframes floatRune {
+  0% {
+    transform: translateY(0) rotate(0deg);
+    opacity: 0;
+  }
+  10% {
+    opacity: 0.12;
+  }
+  50% {
+    opacity: 0.08;
+  }
+  100% {
+    transform: translateY(-120vh) rotate(360deg);
+    opacity: 0;
+  }
 }

@@ -1,5 +1,5 @@
 import "./Footer.css";  
-import githubLogo from "../assets/github-logo-transparent.png"; 
+import githubLogo from "../assets/github-logo.png"; 
 import linkedInLogo from "../assets/linkedin-logo-3.png"
 
 const Footer = () => {
@@ -11,10 +11,10 @@ const Footer = () => {
 
       {/* Links to socials */}
       <div className="footer__links">
-        <a href="https://github.com/ElijahSWilliams">
+        <a href="https://github.com/ElijahSWilliams" target="_blank">
             <img src={githubLogo} className="footer__link-github" />
         </a>
-        <a href="https://github.com/ElijahSWilliams">
+        <a href="https://www.linkedin.com/in/elijah-williams16/" target="_blank">
             <img src={linkedInLogo} className="footer__link-linkedIn" />
         </a>
         
