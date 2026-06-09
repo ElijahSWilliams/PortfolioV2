@@ -12,9 +12,11 @@
   justify-content: space-evenly; 
   max-width: 500px;
   width: 100%; 
-
+  
   border-radius: 10px;
-}  
+}   
+
+
 
 .header__link {
     text-decoration: none;
@@ -59,4 +61,45 @@
 
   .header__link:hover::after {
     width: 100%;
+  }  
+
+
+
+
+  /* Hide Hamburger Menu on Desktop */
+.hamburger {
+  display: none;
+  font-size: 28px;
+  background: none;
+  border: none;
+  color: #eaeaea;
+  cursor: pointer;
+}
+
+
+@media (max-width: 768px) {
+  
+  .hamburger {
+    display: block;
+  
+  } 
+
+  .header__nav {
+    display: none; /* Hide menu by default */
+    flex-direction: column;
+    gap: 1rem;
+    position: absolute;
+    top: 60px;
+    right: 0;
+    background: rgba(10, 10, 20, 0.95); 
+    backdrop-filter: blur(10px); 
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    padding: 1rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  } 
+
+  .header__nav.active {
+    display: flex; /* Show menu when active */
   }
+
+}
