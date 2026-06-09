@@ -68,9 +68,7 @@
     color: #eaeaea !important;
     border: 1px solid rgba(255, 255, 255, 0.08) !important;
     border-radius: 12px !important; 
-    max-width: 300px;
-    min-width: 300px; 
-    max-height: 200px;
+    width: 300px;
     
   }
   
@@ -120,4 +118,30 @@
  border-radius: 15px; 
  padding: 10px; 
  
+}  
+
+@media (max-width: 768px) {
+
+/* Hide top button */
+
+.contact__top-btn {
+  display: none;
 } 
+
+
+.contact__field {
+width: 100px;
+}  
+
+
+.contact__input,
+.contact__textarea {
+  width: 100%;
+} 
+
+.contact__button {
+  width: 90%;
+}
+
+  
+}

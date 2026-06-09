@@ -79,4 +79,11 @@
     box-shadow:
       0 0 15px rgba(106, 13, 173, 0.35);
     border-color: rgba(106, 13, 173, 0.6);
+  } 
+
+  @media (max-width: 768px) {
+    .about__content {
+      grid-template-columns: 1fr;
+      gap: 2rem;
+    }
   }
