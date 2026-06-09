@@ -49,7 +49,7 @@ A social media-inspired application allowing users to upload, delete, and intera
 **Tech Stack:** JavaScript, CSS, APIs
 
 ### AWCleaning
-A business website for a cleaning service featuring contact and booking functionality.
+A business website for a cleaning service featuring contact and booking functionality. It also features GroqAi integration.
 
 **Tech Stack:** React, Node.js
 
