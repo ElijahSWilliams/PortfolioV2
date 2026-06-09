@@ -1,0 +1,20 @@
+.footer {
+    color: #eaeaea;    
+    display: flex; 
+}
+
+.footer__links {
+    margin-left: auto;
+    display: flex; 
+    gap: 10px;
+
+} 
+
+.footer__link-github {
+    width: 30px;
+    height: 30px;
+}
+.footer__link-linkedIn {
+    width: 30px;
+    height: 30px;
+}

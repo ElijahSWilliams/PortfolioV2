@@ -6,6 +6,7 @@ import { useEffect } from 'react'
 import About from './About/About'
 import Projects from './Projects/Projects' 
 import Contact from './Contact/Contact'
+import Footer from './Footer/Footer'
 
 
 function App() {
@@ -44,6 +45,10 @@ function App() {
     
     <section id="contact">
     <Contact />
+    </section> 
+
+    <section id="footer">
+      <Footer />
     </section>
 
     
