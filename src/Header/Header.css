@@ -100,7 +100,8 @@
 
   .header__nav.active {
     display: flex; /* Show menu when active */
-    max-width: 100px;
+    max-width: 100px; 
+    z-index: 999;
   } 
 
 

@@ -15,17 +15,7 @@ function App() {
   const [count, setCount] = useState(0) 
 
 
-  /* Cursor effect */
-  useEffect(() => {
-    const move = (e) => {
-      setMouse({ x: e.clientX, y: e.clientY });
-    };
 
-
-  /* Remove cursor effect */
-    window.addEventListener("mousemove", move);
-    return () => window.removeEventListener("mousemove", move);
-  }, []);
 
   return (
     <>  
