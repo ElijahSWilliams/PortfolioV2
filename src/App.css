@@ -1,0 +1,45 @@
+body {
+  min-height: 100vh;
+  background:
+    radial-gradient(
+      circle at left,
+      rgba(255, 40, 80, 0.25), /* brighter Scarlet Witch */
+      transparent 50%
+    ),
+    radial-gradient(
+      circle at right,
+      rgba(106, 13, 173, 0.22), /* Agatha */
+      transparent 50%
+    ),
+    linear-gradient(
+      90deg,
+      #09040F 0%,
+      #12071C 50%,
+      #1A0B2E 100%
+    );
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  background: url("noise.png");
+  opacity: 0.04;
+  pointer-events: none;
+} 
+
+.cursor {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: rgba(255, 40, 80, 0.8);
+  pointer-events: none;
+  transform: translate(-50%, -50%);
+  box-shadow:
+    0 0 12px rgba(255, 40, 80, 0.6),
+    0 0 24px rgba(106, 13, 173, 0.3);
+  transition: transform 0.08s linear;
+}

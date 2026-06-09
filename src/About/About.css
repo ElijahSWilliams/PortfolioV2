@@ -1,0 +1,82 @@
+.about {
+    padding: 8rem 10%;
+    position: relative;
+    color: #eaeaea;
+  }
+  
+  .about__title {
+    font-size: 3rem;
+    margin-bottom: 4rem;
+    text-align: center;
+    letter-spacing: 2px;
+  }
+  
+  /* Agatha glow */
+  .about::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: radial-gradient(
+      circle at right,
+      rgba(106, 13, 173, 0.15),
+      transparent 60%
+    );
+    pointer-events: none;
+  }
+  
+  .about__content {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    gap: 4rem;
+    align-items: start;
+  }
+  
+  .about__text {
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid rgba(106, 13, 173, 0.2);
+    border-radius: 16px;
+    padding: 2rem;
+    backdrop-filter: blur(8px);
+  }
+  
+  .about__text p {
+    line-height: 1.8;
+    color: rgba(234, 234, 234, 0.85);
+    margin-bottom: 1.5rem;
+  }
+  
+  .about__skills {
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid rgba(106, 13, 173, 0.2);
+    border-radius: 16px;
+    padding: 2rem;
+    backdrop-filter: blur(8px);
+  }
+  
+  .about__subtitle {
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .about__skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    list-style: none;
+    padding: 0;
+  }
+  
+  .about__skill {
+    padding: 0.6rem 1rem;
+    border-radius: 999px;
+    border: 1px solid rgba(106, 13, 173, 0.35);
+    background: rgba(106, 13, 173, 0.08);
+    transition: all 0.3s ease;
+  }
+  
+  .about__skill:hover {
+    transform: translateY(-2px);
+    box-shadow:
+      0 0 15px rgba(106, 13, 173, 0.35);
+    border-color: rgba(106, 13, 173, 0.6);
+  }
