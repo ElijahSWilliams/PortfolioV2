@@ -16,7 +16,7 @@ body {
       #09040F 0%,
       #12071C 50%,
       #1A0B2E 100%
-    );
+    ); 
 }
 
 body::before {
@@ -42,4 +42,8 @@ body::before {
     0 0 12px rgba(255, 40, 80, 0.6),
     0 0 24px rgba(106, 13, 173, 0.3);
   transition: transform 0.08s linear;
+} 
+ 
+html {
+  scroll-behavior: smooth;
 }
