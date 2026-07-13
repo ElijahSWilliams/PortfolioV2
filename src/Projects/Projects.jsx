@@ -22,7 +22,7 @@ const projects = [
     Description:
       "A frontend website that showcases the services of a nail salon and allows users to book appointments online.",
     Tech: ["React", "CSS", "NPM"],
-    Link: "enhancedbyluz.vercel.app",
+    Link: "https://enhancedbyluz.vercel.app/",
     Repo: ["N/A"],
   },
   {
