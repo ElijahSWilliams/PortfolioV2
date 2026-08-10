@@ -29,11 +29,22 @@ const projects = [
     Title: "AWCleaning",
     Description:
       "A cleaning service platform that uses AI to recommend services and provide instant pricing estimates based on customer needs.",
-    Tech: ["React", "Node.js"],
+    Tech: ["React", "Node.js", "GroqAI"],
     /*  Tools: ["GroqAi"], */
     Link: "https://elijahswilliams.github.io/AWCLEANING/",
     Repo: ["https://github.com/ElijahSWilliams/AWCLEANING"],
-  },
+  },  
+  {
+    Title: "JobTracker",
+    Description:
+      "A Full Stack Web App to keep track of jobs that a user applied to.",
+    Tech: ["TypeScript", "React", "Node.js", " MongoDB Atlas"],
+    /*  Tools: ["GroqAi"], */
+    Link: "https://elijahswilliams.github.io/jobTracker/",
+    Repo: ["https://github.com/ElijahSWilliams/jobTracker"],
+  }, 
+  
+
 ];
 
 function Projects() {
