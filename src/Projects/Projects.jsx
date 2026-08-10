@@ -38,7 +38,7 @@ const projects = [
     Title: "JobTracker",
     Description:
       "A Full Stack Web App to keep track of jobs that a user applied to.",
-    Tech: ["TypeScript", "React", "Node.js", " MongoDB Atlas"],
+    Tech: ["TypeScript", "React", "Node.js", " MongoDB Atlas", "Render"],
     /*  Tools: ["GroqAi"], */
     Link: "https://elijahswilliams.github.io/jobTracker/",
     Repo: ["https://github.com/ElijahSWilliams/jobTracker"],
